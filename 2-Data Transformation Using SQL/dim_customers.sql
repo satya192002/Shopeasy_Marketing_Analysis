@@ -9,11 +9,8 @@ SELECT
     g.Country,  -- Selects the country from the geography table to enrich customer data
     g.City  -- Selects the city from the geography table to enrich customer data
 FROM 
-    dbo.customers as c  -- Specifies the alias 'c' for the dim_customers table
+    dbo.customers as c  
 LEFT JOIN
--- RIGHT JOIN
--- INNER JOIN
--- FULL OUTER JOIN
-    dbo.geography g  -- Specifies the alias 'g' for the dim_geography table
+    dbo.geography g  
 ON 
     c.GeographyID = g.GeographyID;  -- Joins the two tables on the GeographyID field to match customers with their geographic information
