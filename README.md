@@ -6,7 +6,7 @@ The primary goal of this project is to analyze customer behavior across three di
 
 ## Details on the Dataset
 
-Data was sourced from a relational SQL Server database (`PortfolioProject_MarketingAnalytics`) and supplemented with CSV exports for analysis.
+Data was sourced from a relational SQL Server database (`Shopeasy_MarketingAnalytics`) and supplemented with CSV exports for analysis.
 
 **Tables & Files:**
 
